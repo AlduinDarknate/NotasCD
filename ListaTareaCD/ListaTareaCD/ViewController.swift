@@ -75,7 +75,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         celda.detailTextLabel?.text = "\(listaTareas[indexPath.row].fecha!)"
         
         //let imagenCD = UIImage(data: listaTareas[indexPath.row].imagen!)
-        //celda.imageView
+        //celda.imageView?.image = imagenCD
         return celda
     }
     
